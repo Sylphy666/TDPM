@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModel
 CONFIG = {
     "model_path": "../../Qwen3-Embedding-8B", 
     "item_path": "../data/Beauty/Beauty.item.json",
-    "output_path": "../data/Beauty_test/Beauty.item.embedding.pt",
+    "output_path": "../data/Beauty/Beauty.item.embedding.pt",
     "device": "cuda" if torch.cuda.is_available() else "cpu",
     "batch_size": 32,
     "max_text_len": 256,
