@@ -8,7 +8,7 @@ import numpy as np
 CONFIG = {
     "emb_path": "../data/Beauty/Beauty.item.embedding.pt",
     "inter_path": "../data/Beauty/Beauty.inter.json",
-    "output_path": "../data/Beauty_test/Beauty.semantic_deviation.json",
+    "output_path": "../data/Beauty/Beauty.semantic_deviation.json",
     "device": "cuda" if torch.cuda.is_available() else "cpu"
 }
 
