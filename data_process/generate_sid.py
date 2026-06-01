@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 CONFIG = {
     "emb_path": "../data/Beauty/Beauty.item.embedding.pt",
-    "output_sid_path": "../data/Beauty_test/Beauty.sid.json",
+    "output_sid_path": "../data/Beauty/Beauty.sid.json",
     "sid_len": 4,
     "clusters_per_level": 256,
     "seed": 42
